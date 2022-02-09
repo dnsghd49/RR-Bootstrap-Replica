@@ -1,0 +1,5 @@
+.spacing {
+    border-bottom: "1px solid #E8E9EB";
+    display: "flex"; 
+    justify-content: "space-evenly" 
+}

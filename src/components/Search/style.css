@@ -1,0 +1,17 @@
+.bgColorWay {
+    display: flex;
+    justify-content: flex-end;
+    z-index: auto;
+    position: relative;
+    height: 35em;
+}
+
+.randomContainer {
+    background-color: #dfeed6;
+}
+
+.top-left {
+    position: absolute;
+    top: 350px;
+    left: 3em;
+}

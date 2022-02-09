@@ -1,4 +1,5 @@
 import "./style.css"
+import Form from "react-bootstrap/Form"
 
 function Search() {
     return (
@@ -9,9 +10,9 @@ function Search() {
             <div className="top-left">
                 <h2>Order groceries for delivery or pickup today</h2>
                 <p>Whatever you want from local stores, brought right to your door.</p>
-                <form>
-                    <input value="Enter your addy"></input>
-                </form>
+                <Form>
+                    <Form.Control className="inputHeight" type="address" placeholder="Enter your addy!" />
+                </Form>
             </div>
         </div>
     )

@@ -13,5 +13,9 @@
 .top-left {
     position: absolute;
     top: 350px;
-    left: 3em;
+    left: 5em;
+}
+
+.inputHeight {
+    height: 56px;
 }

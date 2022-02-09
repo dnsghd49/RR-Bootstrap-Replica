@@ -7,7 +7,7 @@ import Button from "react-bootstrap/Button"
 
 function Menubar() {
     return (
-        <Navbar bg="light" expand={false}>
+        <Navbar bg="light" expand={false} style={{height:'5em'}}>
             <Container fluid>
                 <Col sm='13'>
                     <Navbar.Toggle aria-controls="offcanvasNavbar" />
@@ -29,8 +29,8 @@ function Menubar() {
                             </Nav>
                         </Offcanvas.Body>
                     </Navbar.Offcanvas>
-                    <Navbar.Brand href="home">
-                        <img src="https://www.instacart.com/assets/beetstrap/brand/instacart-logo-color-4db9d81ca0b7638befdc4bd331f64a2633df790c0b55ef627c99b1ba77af72b7.svg" alt='instacart LOGO' />
+                    <Navbar.Brand href="/home">
+                        <img style={{ paddingLeft: '0.5em', height: '24px', width: '149px' }} src="https://www.instacart.com/assets/beetstrap/brand/instacart-logo-color-4db9d81ca0b7638befdc4bd331f64a2633df790c0b55ef627c99b1ba77af72b7.svg" alt='instacart LOGO' />
                     </Navbar.Brand>
                 </Col>
                 <Col sm='-1' style={{ display: "flex" }}>
